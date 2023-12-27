@@ -25,9 +25,9 @@ import {
 import { getBaseUrl } from '../../configVariables';
 import { ImageUtil } from '../../utility/imageutility';
 import { TFunction } from "i18next";
-
-const validImageTypes = ['image/gif', 'image/jpeg', 'image/png','image/jpg'];
 import axios from '../../apis/axiosJWTDecorator';
+const validImageTypes = ['image/gif', 'image/jpeg', 'image/png','image/jpg'];
+
 //let baseAxiosUrl = getBaseUrl() + '/api';
 //Temporary fix to bypass Front Door due to the recent changes in the authentication flow that removed
 //authentication headers from all calls to the APIs
