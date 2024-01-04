@@ -132,5 +132,6 @@ export class AxiosJWTDecorator {
     }
 }
 
+
 const axiosJWTDecoratorInstance = new AxiosJWTDecorator();
 export default axiosJWTDecoratorInstance;
